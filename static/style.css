@@ -24,3 +24,14 @@ body { font-size: 1em;}
 @media (min-width: 1200px) {
     html { font-size: 200%; }
 }
+
+.img-container {
+    width: 10rem;
+    height: 30rem;
+}
+
+/* resize images */
+.img-container img {
+    width: 100%;
+    height: auto;
+}
