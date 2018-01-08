@@ -7,3 +7,5 @@ Jinja2==2.10
 MarkupSafe==1.0
 SQLAlchemy==1.2.0
 Werkzeug==0.14.1
+
+# remember to remove pkg-resources, its a bug!!
