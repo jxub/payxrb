@@ -1,0 +1,7 @@
+.title, .subtitle, .author {
+    font-family: 'Roboto Mono', monospace;    
+}
+
+.container {
+    margin-top: 10em;
+}

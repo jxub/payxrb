@@ -23,7 +23,7 @@ class User(db.Model):
 
 @app.route('/', methods=['GET'])
 def index():
-  return 'Hello world!' # render_template('index.html', users=User.query.all())
+  return render_template('index.html', users=User.query.all())
 
 
 @app.route('/user', methods=['POST'])

@@ -1,4 +1,25 @@
-<form action="{{ url_for('user') }}" method="post">
+<html>
+  <head>
+    <title>payxrb - instant transactions</title>
+
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400i" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
+    integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <div class="container">
+        <h1 class="title">PayXRB</h1>
+        <h3 class="subtitle">Instant transactions of the future</h3>
+        <a class="author" href="https://jakubjanarek.com">by Jakub Janarek</a>
+    </div>
+  </body>
+</html>
+
+<!--
+  <form action="{{ url_for('user') }}" method="post">
   <input type="text" name="name" placeholder="Name..."/>
   <input type="text" name="email" placeholder="Email..."/>
   <button type="submit">Save</button>
@@ -6,3 +27,4 @@
 {% for u in users %}
   <p>{{ u.name }} -- {{ u.email }}</p>
 {% endfor %}
+ -->
